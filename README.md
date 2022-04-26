@@ -1,129 +1,420 @@
-<!--
+---
+
+marp: true
 theme: gaia
-class:
- - invert
-headingDivider: 2 
 paginate: true
--->
+header: "![w:240 h:48](logo.svg)"
+footer: "![w:240 h:48](erasmus-cofunded-logo.png) LOVEDISTANCE"
+size: 16:9
+Divider:
+---
 
-<!--
-_class:
- - lead
- - invert
--->
+<!-- _paginate: false -->
+<!-- _class: lead -->
 
-# Deploy Marp to GitHub Pages
+##  <!-- fit -->  Markdown Authoring
+## Anxo Sánchez Bermúdez
+## University of de Vigo
 
-Presentations to Webpages: Instantly!
+---
+<!-- header: "" -->
+<!-- footer: "" -->
+<!-- class: invert -->
 
-## What?
+## Frustrations with  word processors
 
-[Marp](https://marp.app/) lets you create HTML slides from markdown (like this!).
+- Most teachers I know fall into one of two groups: **Microsoft Word'ers** or **Google Docs'ers**
+- Both are terrible, especially in a world where there’s Markdown.
+- When we want share with students we use **PDF** format.
+- Make presentations with **Powerpoint**, **Impress** or **Google Slides** ...
+- Try to convert a **MS word ```docx```** file to **MS PowerPoint ```pptx```** and then share it in **Adobe ```pdf```**!
 
-This presentation is both a [website](https://alexsci.com/marp-to-pages) and a [README.md](https://github.com/ralexander-phi/marp-to-pages/blob/main/README.md).
+---
 
-## Why?
+## What is markdown?
 
-Treat your presentation the same way you treat code.
+Markdown is a markup language. The Markdown language lets you write plain text documents with a few annotations that specify the document format. Format is independet of source.
 
-- Use git to track changes
-- Pull requests to collaborate
-- Deploy automatically
-- See a problem? Open an issue!
+- Text: headers, footers, etc.
+- Fonts and font sizes.
+- Line, page numbes, etc.
 
-## Setup
+---
 
-Want to create your own?
+## Math fórmulas
 
-First, create a new repo [from the template repo](https://github.com/ralexander-phi/marp-to-pages).
+$$
+\frac{\partial (\rho u_{i})}{\partial t} + \frac{\partial[\rho u_{i}u_{j}]}{\partial x_{j}} = -\frac{\partial p}{\partial x_{i}} + \frac{\partial \tau_{ij}}{\partial x_{j}} + \rho f_{i}
+$$
+$$
+\frac{\partial \rho}{\partial t} + \overrightarrow{\nabla}\cdot(\rho\overrightarrow{u})=0 
+$$
+$$
+\frac{\partial(\rho \overrightarrow{u})}{\partial t} + \overrightarrow{\nabla}\cdot[\rho\overline{\overline{u\otimes u}}] = -\overrightarrow{\nabla p} + \overrightarrow{\nabla}\cdot\overline{\overline{\tau}} + \rho\overrightarrow{f}
+$$
 
-![](img/use-template.png)
+---
 
-## Configure GitHub Pages
+## Mermaid Diagrams
 
-Open your new repo and [setup publishing](https://help.github.com/en/github/working-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site#choosing-a-publishing-source).
+[![w:600 h:400](https://mermaid.ink/img/pako:eNpt0M2qAjEMBeBXidk68wJdKILC1a3bbkJ7dMrtj9YWEfHd7YzjzqwC-U4gebJJFqz4hmtFNNg6OWcJOlKrjXcG_Wq1PKQhKvqD94nGvqMh3Uky6JHq-if-MCNxJDRAMgXMdJz1jfZTpi12n3RH-ykx6RZb_OZ7OgGezhlSZvIt7jggB3G23fQcZ5rLgADNqrVW8r9mHV_N1YuVgp11JWVWJ_E3dCy1pOMjGlYlV3zR_JRZvd5_C2Gl)](https://mermaid.live/edit#pako:eNpt0M2qAjEMBeBXidk68wJdKILC1a3bbkJ7dMrtj9YWEfHd7YzjzqwC-U4gebJJFqz4hmtFNNg6OWcJOlKrjXcG_Wq1PKQhKvqD94nGvqMh3Uky6JHq-if-MCNxJDRAMgXMdJz1jfZTpi12n3RH-ykx6RZb_OZ7OgGezhlSZvIt7jggB3G23fQcZ5rLgADNqrVW8r9mHV_N1YuVgp11JWVWJ_E3dCy1pOMjGlYlV3zR_JRZvd5_C2Gl)
 
-You'll typically use `gh-pages` as the deploy branch.
 
-## Review Build
+---
 
-Click on Actions tab and see if the build succeeded (it may take some time).
+## What is not markdown?
 
-![](img/click-actions.png)
+- A WYSIWYG (what you see is what you get) editor.
+- You decide your text with information (chapters, sections, etc), but not its format.
 
-You should now see the generated files in the `gh-pages` branch.
+This workflow paradigm makes it easier to produce different kinds of outputs. Working together with [pandoc](https://pandoc.org) your markdown source can easily be transformed into other formats like HTML, PDF, or DOCX
 
-## View webpage
+---
 
-Open your deployed webpage to see the content.
+# <!-- fit --> Markdown Principal Characteristics
 
-Out of the box you should see `README.md` as `/index.html` and `/README.pdf`. Slides under `docs/` are also converted.
+- Markdown is simple. Annotations are minimal, and in made in plain text.
+- Markdown is generates easyly documents in other markup languages or formats.
+- It uses also templates so you can write custom templates and stylesheets.
+- Math expresions are writen in LaTeX.
+- It uses Pandoc as translation support (several extensions.)
 
-## Running locally
+--- 
 
-Locally you'll run commands like:
+# Why Use Markdown
+
+* If you are an content author which changes versions and outputs formats (like a learner)
+* If you thing WYSIWYG editors such as Microsoft Word can ba a nightmare.
+* When you share your documents with others, the use of plain text is a good idea.
+* Plain text editors are free, light and portable. If you are authoring in plain text file, you know exactly what you are editing.
+* If you need your document in different formats, for example, pdf, slides, etc. 
+
+---
+
+# Semantics vs Format
+
+* Texts consist of chapters and sections, plain text and emphasized text, figures and citations, quotes, and lists. 
+* Semantic elements are visualized by different fonts, bold and italic text, different font sizes, and we do not directly see the semantic structure.
+* Most word processors separate semantics from formatting. 
+* Using WYSIWYG word processors doesn’t prevent you from structuring your documents as semantic units—they.
+
+---
+
+# Preprocessing Documents
+
+- There are a lot of options in order to process documents before convert them into a final output.
+- There are a lot of tools that will work well with plain text and markdown as preprocessors.
+- Preprocessing documents often require a few programming skills, so it might not be the first thing to learn about markdown
+
+---
+
+# Concepts 
+
+- First, we can learn about:
+  - Files
+  - Templates
+  - Style sheets
+  - Outputs
+  - Pandoc
+
+---
+
+# Markdown Process
+
+<!-- backgroundColor: gray -->
+
+![](flowchart1.png)
+
+* You can translate the text in multiple documents, or merge multiple chapters into a single one.
+* You combine templates for formatting the documents, and using **Pandoc** to produce the documents you want.
+
+---
+
+<!-- backgroundColor: white -->
+<!-- color: black -->
+
+## Markdown
+## Pandoc
+## Pathways
+
+![bg contain](pandoc.png)
+
+---
+<!-- backgroundColor: default -->
+
+ Why Use MarkdoWn and pandoc?
+
+* You can write without worrying about it initially, and format later.
+* You have a lot of code examples.
+* You use math formulas
+* You make graphs or charts with online software
+* Yu wabt easily capture web pages
+* You share documents with many people
+* You use online sites that can render markdown (Moodle, Jupyter, wordpress, Hugo, etc)
+
+---
+
+Why Markdown?
+
+* It's a markup languege easier to leran than any other (HTML)
+* Is much easy but compayibler with TeX and LaTeX
+* What makes Markdown particularly pleasant to work with is its simplicity.
+
+* Consider this Markdown document:
+
+```markdown
+* One
+* Two
+```
+
+---
+
+# In LateX
+
+```latex
+\begin{itemize}
+\item One
+\item Two
+\end{itemize}
+```
+# In HTML
+
+```html
+<ul>
+<li>One</li>
+<li>Two</li>
+</ul>
+```
+----
+
+# Why Pandoc?
+
+* Since Markdown is just a language for adding structure to a text, it is not tied to any particular tool.
+* Many blogging platforms accep Markdown and automatically format it for you to HTML (**Moodle**).
+* Now, many text editors also support Markdown but may be you need to export to different file formats and in different styles, then that is obviously the easiest way for you to export your Markdown text. 
+* Pandoc is vastly more versatile than any Markdown-aware text editor.
+
+--- 
+
+# Writing Markdown
+
+```markdown
+# Header level 1
+## Header level 2
+### Header level 3
+```
+# Header level 1
+## Header level 2
+### Header level 3
+
+---
+
+# Emphasis
+
+```markdown
+*Italics* or _Italics_
+**Bold** or __Bold__
+_**Italic Bold**_
+**_Italic Bold_**
+```
+*Italics* or _Italics_
+**Bold** or __Bold__
+_**Italic Bold**_
+**_Italic Bold_**
+
+---
+
+# Lists
+
+```markown
+1. This is a numbered list.
+2. Where this is list item two.
+3. And this is list item three.
+```
+
+1. This is a numbered list.
+2. Where this is list item two.
+3. And this is list item three.
+
+---
+
+```markdown
+1. This is a multi-line list item.
+   This is also part of the list item.
+   And so is this
+2. Here is another one.
+   Where this is also part of the list item.
+```
+
+1. This is a multi-line list item. This is also part of the
+   list item. And so is this.
+2. Here is another one. Where this is also part of the list
+   item.
+  
+---
+
+# Sublists
+
+```markdown
+- This is a top-level list item
+    * Here is a sublist item
+    * Here is another
+```
+- This is a top-level list item
+    * Here is a sublist item
+    * Here is another
+
+---
+
+# Block Quotes
+
+```markdown
+> This is a blockquote. The blockquote
+>  can span multiple lines. If you don't
+> put any new lines in it, you only
+```
+
+> This is a blockquote. The blockquote
+> can span multiple lines. If you don't
+> put any new lines in it, you only
+
+---
+
+# Verbatim Text 
+
+\`\`\`
+This will be shown absolutely verbatim
+\`\`\`
+
+The result will then look like this:
 
 ```
-$ marp README.md -o build/README.pdf
+This will be shown absolutely verbatim
 ```
 
-or
+---
+
+# Links
+
+This is a link to [my blog](https://github.io/anxosanchez/).
+
+
+This is a link to [my blog](https://pdf2md.morethan.io/[http://www.mailund.dk](http://www.mailund.dk)).
+
+
+This is a link to [the section](https://pdf2md.morethan.io/#verbatim).
+
+---
+
+```markdown
+a. This list uses letters instead of numbers.
+b. We can make a sublist with roman numerals:
+i. This sublist also uses parenthesis
+ii. Cool, isn’t it?
+```
+
+looks like
+
+a. This list uses letters instead of numbers.
+b. We can make a sublist with a roman numerals:
+i. This sublist also uses parenthesis
+ii. Cool, isn’t it?
+
+---
+# Images
+
+![Title of the figure](https://eei.uvigo.es/wp-content/uploads/2022/04/Tecnologias_XR.jpeg)
+
+---
+
+# combined with HTML
+
+<style>
+img[alt~="center"] {
+  display: block;
+  margin: 0 auto;
+}
+</style>
+
+![w:649 center](https://eei.uvigo.es/wp-content/uploads/2022/04/Tecnologias_XR.jpeg)
+
+---
+
+![Watch the video](https://youtu.be/AOaxhU1yxOM)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/AOaxhU1yxOM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+---
+
+# Tables
+
+```markdown
+| Right | Left | Default | Center |
+| ----: | :--- | :------ | :----: |
+|    12 | 12   | 12      |   12   |
+|   123 | 123  | 123     |  123   |
+```
+Result:
+| Right | Left | Default | Center |
+| ----: | :--- | :------ | :----: |
+|    12 | 12   | 12      |   12   |
+|   123 | 123  | 123     |  123   |
+
+---
+
+# Footnotes
+
+Footnote inside a paragraph.[^1]
+
+Reference to a footnote.[[1\]](https://pdf2md.morethan.io/#fn1)
+
+[^1]: This is footnote one.
+
+---
+
+# Syntax Highligthing
+
+```python
+for (int i = 0; i < n; i++) 
+printf("%d\n", i);
+```
+
+```matlab
+function v = f(x);
+    v = exp(a^3)  - x
+```
+---
+
+# Maths
+
+```latex
+$$p_k(x)=\prod_{\substack{i=1\\i\ne k}}^n
+\left(\frac{x-t_i}{t_k-t_i}\right)$$
+```
+looks like
+
+$$p_k(x)=\prod_{\substack{i=1\\i\ne k}}^n
+\left(\frac{x-t_i}{t_k-t_i}\right)$$
+
+---
+
+# Presenter notes
 
 ```
-$ npx @marp-team/marp-cli@latest README.md -o build/README.pdf
+<!-- This is a presenter note for this page. -->
+<!-- EXAMPLE: An EXAMPLE directive is not defined in Marp/Marpit, so this works as presenter notes. -->
 ```
+```<!-- fit -->``` This is not a presenter note.
 
-## As a workflow step
+---
 
-The workflow runs an equivalent step:
+<!-- class: lead -->
 
-```
-- name: Marp Build (README.pdf)
-  uses: docker://marpteam/marp-cli:v1.7.0
-  with:
-    args: README.md -o build/README.pdf
-  env:
-    MARP_USER: root:root
-```
+# <!-- fit --> Thank you!
+## Creative Commos License
+![w:300 h:100](by-nc-nd.eu.png) 
 
-Note the `args` match the previous slide.
 
-## Customizing the build
-
-Anything in the `build/` folder will be deployed to GitHub Pages.
-
-You can copy extra files or run further processing steps using other tools.
-
-## Learn more about Marp
-
-This is a good time to learn more about Marp. Here's some resources:
-
-- [CommonMark](https://commonmark.org/)
-- [Cheat Sheet](https://commonmark.org/help/)
-- [Themes](https://github.com/marp-team/marp-core/tree/master/themes)
-- [CSS Themes](https://marpit.marp.app/theme-css)
-- [Directives](https://marpit.marp.app/directives)
-- [VS Code plugin](https://marketplace.visualstudio.com/items?itemName=marp-team.marp-vscode)
-
-## Example Sites
-
-Known sites using this action are:
-
-- [University of Illinois at Urbana-Champaign's CS 199 Even More Practice](https://cs199emp.netlify.app/) [(code)](https://github.com/harsh183/emp-125)
-- [Exploring agent based models](https://roiarthurb.github.io/Talk-UMMISCO_06-07-2020/) [(code)](https://github.com/RoiArthurB/Talk-UMMISCO_06-07-2020)
-
-Send a [pull request](https://github.com/ralexander-phi/marp-to-pages) to get your site added.
-
-## Publish your slides
-
-When you are ready to share your presentation, commit or merge to `main` and your content on GitHub Pages will automatically update.
-
-# 🎉
-<!--
-_class:
- - lead
- - invert
--->
-### Hooray!
+---
 
 

@@ -258,20 +258,7 @@ Why Markdown?
 ```
 ----
 
-## Math fórmulas
-
-$$
-\frac{\partial (\rho u_{i})}{\partial t} + \frac{\partial[\rho u_{i}u_{j}]}{\partial x_{j}} = -\frac{\partial p}{\partial x_{i}} + \frac{\partial \tau_{ij}}{\partial x_{j}} + \rho f_{i}
-$$
-$$
-\frac{\partial \rho}{\partial t} + \overrightarrow{\nabla}\cdot(\rho\overrightarrow{u})=0 
-$$
-$$
-\frac{\partial(\rho \overrightarrow{u})}{\partial t} + \overrightarrow{\nabla}\cdot[\rho\overline{\overline{u\otimes u}}] = -\overrightarrow{\nabla p} + \overrightarrow{\nabla}\cdot\overline{\overline{\tau}} + \rho\overrightarrow{f}
-$$
-
----
-# Why Pandoc?
+## Why Pandoc?
 
 * Since Markdown is just a language for adding structure to a text, it is not tied to any particular tool.
 * Many blogging platforms accep Markdown and automatically format it for you to HTML (**Moodle**).
@@ -380,13 +367,25 @@ This will be shown absolutely verbatim
 
 # Links
 
-This is a link to [my blog](https://github.io/anxosanchez/).
+This is a link to [my blog](https://anxosanchez.github.io/eqi2/).
 
-
-This is a link to [my blog](https://pdf2md.morethan.io/[http://www.mailund.dk](http://www.mailund.dk)).
-
+This is a link to [[these slides](https://anxosanchez.github.io/LOVEDISTANCE_Slides/)]
 
 This is a link to [the section](https://pdf2md.morethan.io/#verbatim).
+
+---
+
+## Math fórmulas
+
+$$
+\frac{\partial (\rho u_{i})}{\partial t} + \frac{\partial[\rho u_{i}u_{j}]}{\partial x_{j}} = -\frac{\partial p}{\partial x_{i}} + \frac{\partial \tau_{ij}}{\partial x_{j}} + \rho f_{i}
+$$
+$$
+\frac{\partial \rho}{\partial t} + \overrightarrow{\nabla}\cdot(\rho\overrightarrow{u})=0 
+$$
+$$
+\frac{\partial(\rho \overrightarrow{u})}{\partial t} + \overrightarrow{\nabla}\cdot[\rho\overline{\overline{u\otimes u}}] = -\overrightarrow{\nabla p} + \overrightarrow{\nabla}\cdot\overline{\overline{\tau}} + \rho\overrightarrow{f}
+$$
 
 ---
 
@@ -450,6 +449,12 @@ Result:
 
 ---
 
+## Mermaid Diagrams
+
+![](https://mermaid.ink/img/pako:eNpt0M2qAjEMBeBXidk68wJdKILC1a3bbkJ7dMrtj9YWEfHd7YzjzqwC-U4gebJJFqz4hmtFNNg6OWcJOlKrjXcG_Wq1PKQhKvqD94nGvqMh3Uky6JHq-if-MCNxJDRAMgXMdJz1jfZTpi12n3RH-ykx6RZb_OZ7OgGezhlSZvIt7jggB3G23fQcZ5rLgADNqrVW8r9mHV_N1YuVgp11JWVWJ_E3dCy1pOMjGlYlV3zR_JRZvd5_C2Gl)](https://mermaid.live/edit#pako:eNpt0M2qAjEMBeBXidk68wJdKILC1a3bbkJ7dMrtj9YWEfHd7YzjzqwC-U4gebJJFqz4hmtFNNg6OWcJOlKrjXcG_Wq1PKQhKvqD94nGvqMh3Uky6JHq-if-MCNxJDRAMgXMdJz1jfZTpi12n3RH-ykx6RZb_OZ7OgGezhlSZvIt7jggB3G23fQcZ5rLgADNqrVW8r9mHV_N1YuVgp11JWVWJ_E3dCy1pOMjGlYlV3zR_JRZvd5_C2Gl)
+
+---
+
 # Footnotes
 
 Footnote inside a paragraph.[^1]
@@ -496,17 +501,9 @@ $$p_k(x)=\prod_{\substack{i=1\\i\ne k}}^n
 
 ---
 
-## Mermaid Diagrams
-
-![](https://mermaid.ink/img/pako:eNpt0M2qAjEMBeBXidk68wJdKILC1a3bbkJ7dMrtj9YWEfHd7YzjzqwC-U4gebJJFqz4hmtFNNg6OWcJOlKrjXcG_Wq1PKQhKvqD94nGvqMh3Uky6JHq-if-MCNxJDRAMgXMdJz1jfZTpi12n3RH-ykx6RZb_OZ7OgGezhlSZvIt7jggB3G23fQcZ5rLgADNqrVW8r9mHV_N1YuVgp11JWVWJ_E3dCy1pOMjGlYlV3zR_JRZvd5_C2Gl)](https://mermaid.live/edit#pako:eNpt0M2qAjEMBeBXidk68wJdKILC1a3bbkJ7dMrtj9YWEfHd7YzjzqwC-U4gebJJFqz4hmtFNNg6OWcJOlKrjXcG_Wq1PKQhKvqD94nGvqMh3Uky6JHq-if-MCNxJDRAMgXMdJz1jfZTpi12n3RH-ykx6RZb_OZ7OgGezhlSZvIt7jggB3G23fQcZ5rLgADNqrVW8r9mHV_N1YuVgp11JWVWJ_E3dCy1pOMjGlYlV3zR_JRZvd5_C2Gl)
-
----
-
 <!-- class: lead -->
 
 # <!-- fit --> Thank you!
 ## Creative Commos License
-![w:300 h:100](by-nc-nd.eu.png) 
+![w:300 h:100](./img/by-nc-nd.eu.png) 
 
-
----

@@ -3,7 +3,7 @@
 marp: true
 theme: gaia
 paginate: true
-header: "![w:240 h:48](./img/logo.svg)"
+header: "![w:300 h:60](./img/logo.svg)"
 footer: "![w:240 h:48](./img/erasmus-cofunded-logo.png) LOVEDISTANCE"
 size: 16:9
 
@@ -506,4 +506,5 @@ $$p_k(x)=\prod_{\substack{i=1\\i\ne k}}^n
 # <!-- fit --> Thank you!
 ## Creative Commos License
 ![w:300 h:100](./img/by-nc-nd.eu.png) 
+
 

@@ -17,3 +17,6 @@ Title
 - Cat
 - Frog
 
+```smiles
+OC(=O)c1cc(Cl)cs1 
+```

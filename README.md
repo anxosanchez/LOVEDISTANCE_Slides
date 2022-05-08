@@ -3,11 +3,12 @@
 marp: true
 theme: gaia
 paginate: true
-header: "![w:300 h:60](./img/logo.svg)"
-footer: "![w:240 h:48](./img/erasmus-cofunded-logo.png) LOVEDISTANCE"
+header: "![w:240 h:48](./img/logo.svg)"
+footer: "![w:240 h:48](erasmus-cofunded-logo.png) LOVEDISTANCE"
 size: 16:9
-
+Divider:
 ---
+
 <!-- _paginate: false -->
 <!-- _class: lead -->
 
@@ -18,95 +19,7 @@ size: 16:9
 ---
 <!-- header: "" -->
 <!-- footer: "" -->
-<!-- _paginate: false -->
-<!-- _class: lead -->
-
-# <!-- fit --> Curation of Educationa Resources
-
----
-
 <!-- class: invert -->
-
-## <!-- fit --> Challenges in identifying and utilizing the OERs.
-
-![center w:800](./img/fig1.png)
-
-<!-- Presenter notes 
-There is inadequate perception among teacher educators on availability and usability of relevant OER for teaching the contents.
-Teacher Educators are varied on their perception regarding OER as relevant and active support to teach content. 
-18% of teacher educators perceived the OER as need of the hour while
-13.88% perceived OER as not supportive.
-68% perceived with neutrality.
-82% of teacher educators are skeptic on authenticity of available online resources including OER materials.
--->
----
-
-## Teacher Perception
-
- - Most of the teachers guarantee the credibility of online resources only after verifying with the text book resources.
- - They have 'tendency to compare' the relevance and quality of online materials with Books.
- - The study reflects need of awareness programmes for teacher educators on OER and its utilization. 
- - Curation is needeed to adjudicate the credence and quality of the materials.
-
-_Journal of Educational Technology_, v15, n2, p55-61, Jul-Sep **2018**
-
----
-
-## Curation vs Creation Dilema: Flipped Class
-
-![center ](./img/fig2.png)
-
-- Content creation is when you create your own materials from scratch:
-  - presentations, 
-  - assignments 
-  - assessments.
-<!-- - You mostly likely already engage in a mix of content creation and content curation.
-- Content creation is when you create your own materials from scratch—from syllabi, presentations, assignments and assessments.
-- You realize that you’re a one-stop shop education machine!.
-- You don’t write your own new course materials every semester. 
-- Instead, you think about the use of existing content where it suits your needs.
--->
-
----
-
-## What to do?
-
-- Skip borrow material from past. This is content curation.
-- Balancing content creation with curation for an effective design.
-- Take resources developed by trusted sources. Curation is one tool.
-- Curation improves student success keeping supplemental materials costs affordable .
-- Curating high-quality content prevents you from unnecessarily duplicating content (MMOER). 
-
----
-
-## OER Curation
-
-[OER Curation Kit](https://www.education.ne.gov/educational-technology/oer/oer-toolkit-curation/#1550863946581-1fce08bd-2c1b)
-
-- Consider collaborating with others
-- Conduct your searches in recognized repositories
-- Become familiar with open licensing and accessibility requirements
-- Determine your evaluation criteria
-<!-- Contents: [About OER] -->
-
----
-
-## Recommendations
-
-- Limit the amount of copyrighted materials posted to Moodle
-- Use links to legal copies of materials, rather than creating and uploading copies to Moodle. Reasons linking is preferable include:
-- Consider this a teachable moment: teach to find
-- Using films and music within Moodle carefully
-- Delete copyrighted content after the class ends
-
----
-
-<!-- _paginate: false -->
-<!-- _class: lead -->
-
-## <!-- fit --> Creating Materials
-
----
 
 ## Frustrations with  word processors
 
@@ -115,11 +28,6 @@ _Journal of Educational Technology_, v15, n2, p55-61, Jul-Sep **2018**
 - When we want share with students we use **PDF** format.
 - Make presentations with **Powerpoint**, **Impress** or **Google Slides** ...
 - Try to convert a **MS word ```docx```** file to **MS PowerPoint ```pptx```** and then share it in **Adobe ```pdf```**!
-
----
-
-
-![bg center](./img/wygiwym.png)
 
 ---
 
@@ -133,6 +41,27 @@ Markdown is a markup language. The Markdown language lets you write plain text d
 
 ---
 
+## Math fórmulas
+
+$$
+\frac{\partial (\rho u_{i})}{\partial t} + \frac{\partial[\rho u_{i}u_{j}]}{\partial x_{j}} = -\frac{\partial p}{\partial x_{i}} + \frac{\partial \tau_{ij}}{\partial x_{j}} + \rho f_{i}
+$$
+$$
+\frac{\partial \rho}{\partial t} + \overrightarrow{\nabla}\cdot(\rho\overrightarrow{u})=0 
+$$
+$$
+\frac{\partial(\rho \overrightarrow{u})}{\partial t} + \overrightarrow{\nabla}\cdot[\rho\overline{\overline{u\otimes u}}] = -\overrightarrow{\nabla p} + \overrightarrow{\nabla}\cdot\overline{\overline{\tau}} + \rho\overrightarrow{f}
+$$
+
+---
+
+## Mermaid Diagrams
+
+[![center w:600 h:400](https://mermaid.ink/img/pako:eNpt0M2qAjEMBeBXidk68wJdKILC1a3bbkJ7dMrtj9YWEfHd7YzjzqwC-U4gebJJFqz4hmtFNNg6OWcJOlKrjXcG_Wq1PKQhKvqD94nGvqMh3Uky6JHq-if-MCNxJDRAMgXMdJz1jfZTpi12n3RH-ykx6RZb_OZ7OgGezhlSZvIt7jggB3G23fQcZ5rLgADNqrVW8r9mHV_N1YuVgp11JWVWJ_E3dCy1pOMjGlYlV3zR_JRZvd5_C2Gl)](https://mermaid.live/edit#pako:eNpt0M2qAjEMBeBXidk68wJdKILC1a3bbkJ7dMrtj9YWEfHd7YzjzqwC-U4gebJJFqz4hmtFNNg6OWcJOlKrjXcG_Wq1PKQhKvqD94nGvqMh3Uky6JHq-if-MCNxJDRAMgXMdJz1jfZTpi12n3RH-ykx6RZb_OZ7OgGezhlSZvIt7jggB3G23fQcZ5rLgADNqrVW8r9mHV_N1YuVgp11JWVWJ_E3dCy1pOMjGlYlV3zR_JRZvd5_C2Gl)
+
+
+---
+
 ## What is not markdown?
 
 - A WYSIWYG (what you see is what you get) editor.
@@ -142,11 +71,11 @@ This workflow paradigm makes it easier to produce different kinds of outputs. Wo
 
 ---
 
-## Markdown Principal Characteristics
+## <!-- fit --> Markdown Principal Characteristics
 
 - Markdown is simple. Annotations are minimal, and in made in plain text.
 - Markdown is generates easyly documents in other markup languages or formats.
-- It uses also templa so you can write custom templates and stylesheets.
+- It uses also templates so you can write custom templates and stylesheets.
 - Math expresions are writen in LaTeX.
 - It uses Pandoc as translation support (several extensions.)
 
@@ -154,24 +83,24 @@ This workflow paradigm makes it easier to produce different kinds of outputs. Wo
 
 ## Why Use Markdown
 
-- If you are an content author which changes versions and outputs formats (like a learner)
-- If you thing WYSIWYG editors such as Microsoft Word can ba a nightmare.
-- When you share your documents with others, the use of plain text is a good idea.
-- Plain text editors are free, light and portable. If you are authoring in plain text file, you know exactly what you are editing.
-- If you need your document in different formats, for example, pdf, slides, etc. 
+* If you are an content author which changes versions and outputs formats (like a learner)
+* If you thing WYSIWYG editors such as Microsoft Word can ba a nightmare.
+* When you share your documents with others, the use of plain text is a good idea.
+* Plain text editors are free, light and portable. If you are authoring in plain text file, you know exactly what you are editing.
+* If you need your document in different formats, for example, pdf, slides, etc. 
 
 ---
 
 ## Semantics vs Format
 
-- Texts consist of chapters and sections, plain text and emphasized text, figures and citations, quotes, and lists. 
-- Semantic elements are visualized by different fonts, bold and italic text, different font sizes, and we do not directly see the semantic structure.
-- Most word processors separate semantics from formatting. 
-- Using WYSIWYG word processors doesn’t prevent you from structuring your documents as semantic units—they.
+* Texts consist of chapters and sections, plain text and emphasized text, figures and citations, quotes, and lists. 
+* Semantic elements are visualized by different fonts, bold and italic text, different font sizes, and we do not directly see the semantic structure.
+* Most word processors separate semantics from formatting. 
+* Using WYSIWYG word processors doesn’t prevent you from structuring your documents as semantic units—they.
 
 ---
 
-## Preprocessing Documents
+# Preprocessing Documents
 
 - There are a lot of options in order to process documents before convert them into a final output.
 - There are a lot of tools that will work well with plain text and markdown as preprocessors.
@@ -196,8 +125,8 @@ This workflow paradigm makes it easier to produce different kinds of outputs. Wo
 
 ![](flowchart1.png)
 
-- You can translate the text in multiple documents, or merge multiple chapters into a single one.
-- You combine templates for formatting the documents, and using **Pandoc** to produce the documents you want.
+* You can translate the text in multiple documents, or merge multiple chapters into a single one.
+* You combine templates for formatting the documents, and using **Pandoc** to produce the documents you want.
 
 ---
 
@@ -208,34 +137,34 @@ This workflow paradigm makes it easier to produce different kinds of outputs. Wo
 ## Pandoc
 ## Pathways
 
-![bg contain](./img/pandoc.png)
+![bg contain](pandoc.png)
 
 ---
 <!-- backgroundColor: default -->
-<!-- color: default -->
+
  Why Use MarkdoWn and pandoc?
 
-- You can write without worrying about it initially, and format later.
-- You have a lot of code examples.
-- You use math formulas
-- You make graphs or charts with online software
-- Yu wabt easily capture web pages
-- You share documents with many people
-- You use online sites that can render markdown (Moodle, Jupyter, wordpress, Hugo, etc)
+* You can write without worrying about it initially, and format later.
+* You have a lot of code examples.
+* You use math formulas
+* You make graphs or charts with online software
+* Yu wabt easily capture web pages
+* You share documents with many people
+* You use online sites that can render markdown (Moodle, Jupyter, wordpress, Hugo, etc)
 
 ---
 
 Why Markdown?
 
-- It's a markup languege easier to leran than any other (HTML)
-- Is much easy but compayibler with TeX and LaTeX
-- What makes Markdown particularly pleasant to work with is its simplicity.
+* It's a markup languege easier to leran than any other (HTML)
+* Is much easy but compayibler with TeX and LaTeX
+* What makes Markdown particularly pleasant to work with is its simplicity.
 
-- Consider this Markdown document:
+* Consider this Markdown document:
 
 ```markdown
-- One
-- Two
+* One
+* Two
 ```
 
 ---
@@ -258,7 +187,7 @@ Why Markdown?
 ```
 ----
 
-## Why Pandoc?
+# Why Pandoc?
 
 * Since Markdown is just a language for adding structure to a text, it is not tied to any particular tool.
 * Many blogging platforms accep Markdown and automatically format it for you to HTML (**Moodle**).
@@ -367,25 +296,13 @@ This will be shown absolutely verbatim
 
 # Links
 
-This is a link to [my blog](https://anxosanchez.github.io/eqi2/).
+This is a link to [my blog](https://github.io/anxosanchez/).
 
-This is a link to [[these slides](https://anxosanchez.github.io/LOVEDISTANCE_Slides/)]
+
+This is a link to [my blog](https://pdf2md.morethan.io/[http://www.mailund.dk](http://www.mailund.dk)).
+
 
 This is a link to [the section](https://pdf2md.morethan.io/#verbatim).
-
----
-
-## Math fórmulas
-
-$$
-\frac{\partial (\rho u_{i})}{\partial t} + \frac{\partial[\rho u_{i}u_{j}]}{\partial x_{j}} = -\frac{\partial p}{\partial x_{i}} + \frac{\partial \tau_{ij}}{\partial x_{j}} + \rho f_{i}
-$$
-$$
-\frac{\partial \rho}{\partial t} + \overrightarrow{\nabla}\cdot(\rho\overrightarrow{u})=0 
-$$
-$$
-\frac{\partial(\rho \overrightarrow{u})}{\partial t} + \overrightarrow{\nabla}\cdot[\rho\overline{\overline{u\otimes u}}] = -\overrightarrow{\nabla p} + \overrightarrow{\nabla}\cdot\overline{\overline{\tau}} + \rho\overrightarrow{f}
-$$
 
 ---
 
@@ -404,15 +321,13 @@ i. This sublist also uses parenthesis
 ii. Cool, isn’t it?
 
 ---
+# Images
 
-<!-- color: default -->
-## Images
-
-![center w:700 h:450](https://eei.uvigo.es/wp-content/uploads/2022/04/Tecnologias_XR.jpeg)
+![Title of the figure](https://eei.uvigo.es/wp-content/uploads/2022/04/Tecnologias_XR.jpeg)
 
 ---
 
-# Combined with HTML
+# combined with HTML
 
 <style>
 img[alt~="center"] {
@@ -424,8 +339,6 @@ img[alt~="center"] {
 ![w:649 center](https://eei.uvigo.es/wp-content/uploads/2022/04/Tecnologias_XR.jpeg)
 
 ---
-
-## Video
 
 ![Watch the video](https://youtu.be/AOaxhU1yxOM)
 
@@ -446,12 +359,6 @@ Result:
 | ----: | :--- | :------ | :----: |
 |    12 | 12   | 12      |   12   |
 |   123 | 123  | 123     |  123   |
-
----
-
-## Mermaid Diagrams
-
-![](https://mermaid.ink/img/pako:eNpt0M2qAjEMBeBXidk68wJdKILC1a3bbkJ7dMrtj9YWEfHd7YzjzqwC-U4gebJJFqz4hmtFNNg6OWcJOlKrjXcG_Wq1PKQhKvqD94nGvqMh3Uky6JHq-if-MCNxJDRAMgXMdJz1jfZTpi12n3RH-ykx6RZb_OZ7OgGezhlSZvIt7jggB3G23fQcZ5rLgADNqrVW8r9mHV_N1YuVgp11JWVWJ_E3dCy1pOMjGlYlV3zR_JRZvd5_C2Gl)](https://mermaid.live/edit#pako:eNpt0M2qAjEMBeBXidk68wJdKILC1a3bbkJ7dMrtj9YWEfHd7YzjzqwC-U4gebJJFqz4hmtFNNg6OWcJOlKrjXcG_Wq1PKQhKvqD94nGvqMh3Uky6JHq-if-MCNxJDRAMgXMdJz1jfZTpi12n3RH-ykx6RZb_OZ7OgGezhlSZvIt7jggB3G23fQcZ5rLgADNqrVW8r9mHV_N1YuVgp11JWVWJ_E3dCy1pOMjGlYlV3zR_JRZvd5_C2Gl)
 
 ---
 
@@ -505,6 +412,9 @@ $$p_k(x)=\prod_{\substack{i=1\\i\ne k}}^n
 
 # <!-- fit --> Thank you!
 ## Creative Commos License
-![w:300 h:100](./img/by-nc-nd.eu.png) 
+![w:300 h:100](by-nc-nd.eu.png) 
+
+
+---
 
 

@@ -155,20 +155,20 @@ This workflow paradigm makes it easier to produce different kinds of outputs. Wo
 
 ## Why Use Markdown
 
-* If you are an content author which changes versions and outputs formats (like a learner)
-* If you thing WYSIWYG editors such as Microsoft Word can ba a nightmare.
-* When you share your documents with others, the use of plain text is a good idea.
-* Plain text editors are free, light and portable. If you are authoring in plain text file, you know exactly what you are editing.
-* If you need your document in different formats, for example, pdf, slides, etc. 
+- If you are an content author which changes versions and outputs formats (like a learner)
+- If you thing WYSIWYG editors such as Microsoft Word can ba a nightmare.
+- When you share your documents with others, the use of plain text is a good idea.
+- Plain text editors are free, light and portable. If you are authoring in plain text file, you know exactly what you are editing.
+- If you need your document in different formats, for example, pdf, slides, etc. 
 
 ---
 
 ## Semantics vs Format
 
-* Texts consist of chapters and sections, plain text and emphasized text, figures and citations, quotes, and lists. 
-* Semantic elements are visualized by different fonts, bold and italic text, different font sizes, and we do not directly see the semantic structure.
-* Most word processors separate semantics from formatting. 
-* Using WYSIWYG word processors doesn’t prevent you from structuring your documents as semantic units—they.
+- Texts consist of chapters and sections, plain text and emphasized text, figures and citations, quotes, and lists. 
+- Semantic elements are visualized by different fonts, bold and italic text, different font sizes, and we do not directly see the semantic structure.
+- Most word processors separate semantics from formatting. 
+- Using WYSIWYG word processors doesn’t prevent you from structuring your documents as semantic units—they.
 
 ---
 
@@ -197,8 +197,8 @@ This workflow paradigm makes it easier to produce different kinds of outputs. Wo
 
 ![](flowchart1.png)
 
-* You can translate the text in multiple documents, or merge multiple chapters into a single one.
-* You combine templates for formatting the documents, and using **Pandoc** to produce the documents you want.
+- You can translate the text in multiple documents, or merge multiple chapters into a single one.
+- You combine templates for formatting the documents, and using **Pandoc* to produce the documents you want.
 
 ---
 
@@ -216,27 +216,27 @@ This workflow paradigm makes it easier to produce different kinds of outputs. Wo
 <!-- color: default -->
  Why Use MarkdoWn and pandoc?
 
-* You can write without worrying about it initially, and format later.
-* You have a lot of code examples.
-* You use math formulas
-* You make graphs or charts with online software
-* Yu wabt easily capture web pages
-* You share documents with many people
-* You use online sites that can render markdown (Moodle, Jupyter, wordpress, Hugo, etc)
+- You can write without worrying about it initially, and format later.
+- You have a lot of code examples.
+- You use math formulas
+- You make graphs or charts with online software
+- Yu wabt easily capture web pages
+- You share documents with many people
+- You use online sites that can render markdown (Moodle, Jupyter, wordpress, Hugo, etc)
 
 ---
 
 Why Markdown?
 
-* It's a markup languege easier to leran than any other (HTML)
-* Is much easy but compayibler with TeX and LaTeX
-* What makes Markdown particularly pleasant to work with is its simplicity.
+- It's a markup languege easier to leran than any other (HTML)
+- Is much easy but compayibler with TeX and LaTeX
+- What makes Markdown particularly pleasant to work with is its simplicity.
 
-* Consider this Markdown document:
+- Consider this Markdown document:
 
 ```markdown
-* One
-* Two
+- One
+- Two
 ```
 
 ---
@@ -261,10 +261,10 @@ Why Markdown?
 
 ## Why Pandoc?
 
-* Since Markdown is just a language for adding structure to a text, it is not tied to any particular tool.
-* Many blogging platforms accep Markdown and automatically format it for you to HTML (**Moodle**).
-* Now, many text editors also support Markdown but may be you need to export to different file formats and in different styles, then that is obviously the easiest way for you to export your Markdown text. 
-* Pandoc is vastly more versatile than any Markdown-aware text editor.
+- Since Markdown is just a language for adding structure to a text, it is not tied to any particular tool.
+- Many blogging platforms accep Markdown and automatically format it for you to HTML (**Moodle**).
+- Now, many text editors also support Markdown but may be you need to export to different file formats and in different styles, then that is obviously the easiest way for you to export your Markdown text. 
+- Pandoc is vastly more versatile than any Markdown-aware text editor.
 
 ---
 
@@ -329,12 +329,12 @@ _**Italic Bold**_
 
 ```markdown
 - This is a top-level list item
-    * Here is a sublist item
-    * Here is another
+    - Here is a sublist item
+    - Here is another
 ```
 - This is a top-level list item
-    * Here is a sublist item
-    * Here is another
+    - Here is a sublist item
+    - Here is another
 
 ---
 
